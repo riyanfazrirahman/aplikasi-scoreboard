@@ -88,13 +88,19 @@ section .team .score {
   font-weight: bold;
 }
 
+.counter {
+  display: flex;
+  gap: 10px;
+}
+
 .btn {
-  width: 100px;
+  width: 75px;
   background-color: #c3dfec;
   border-radius: 10px;
   border: 2px solid white;
-  font-size: 45px;
   font-weight: bold;
+  font-size: 2.4rem;
+  align-content: center;
   color: #2c3d50;
   padding: 0 10px;
   cursor: pointer;
@@ -104,5 +110,12 @@ section .team .score {
   cursor: pointer;
 }
 .btnSetName {
+  cursor: pointer;
+}
+
+#reload {
+  padding: 7px;
+  background-color: #07768f;
+  border-radius: 15px;
   cursor: pointer;
 }
